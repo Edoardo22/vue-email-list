@@ -13,7 +13,7 @@ new Vue(
                     axios
                         .get("https://flynn.boolean.careers/exercises/api/random/mail")
                         .then((response) => {
-                            this.emails.push(response.data.response)
+                            this.emailList.push(response.data.response)
 
                         })
                 }
